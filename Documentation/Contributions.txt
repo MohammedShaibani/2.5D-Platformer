@@ -1,0 +1,21 @@
+Massimo Albano
+-Player creation & script
+-Camera movement & script
+-Powerups design & scripts
+-Music and sound design
+
+Mohammed Al-Shaibani
+-Platform design & scripts
+-Procedural Generation
+
+Leonora Ala
+-Collectables & script
+-Flow between scenes
+-Most menu scene creation
+-In-game display
+
+Mohamad Bazzi
+-Enemy Creation & scripts
+
+Hasan Malik
+-Enemy Creation & scripts

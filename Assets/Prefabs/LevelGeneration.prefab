@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2201130421702374823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2201130421702374490}
+  - component: {fileID: 2201130421702374488}
+  m_Layer: 0
+  m_Name: LevelGeneration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2201130421702374490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201130421702374823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.7946014, y: -7.1793633, z: 73.27244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2201130421702374488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2201130421702374823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 817fa0ef98722374f867cbafd4966cc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StartPlatform: {fileID: 0}
+  platformList:
+  - {fileID: 5308969577583659425, guid: 5fbdafa99f32bd04881f7df3b63e89db, type: 3}
+  - {fileID: 7565863153078122336, guid: e7b55d917cf9ff9488021739a937b590, type: 3}
+  - {fileID: 2259280617545470696, guid: f3c8d8ca8a46f1d4483047b6e7f65275, type: 3}
+  - {fileID: 4268577897730122315, guid: b1ca8db3ab986b44fbcea40599908046, type: 3}
+  player: {fileID: 0}
+  enemyList: []
+  pickupList: []
+  Collectable: {fileID: 4000010140368820, guid: c3c0707254334a64ca8198f7486e977d,
+    type: 3}
+  EndLevelPrefab: {fileID: 1012364173274651973, guid: c2bc6b6c7c6d7a44f82692ec96adab5b,
+    type: 3}
